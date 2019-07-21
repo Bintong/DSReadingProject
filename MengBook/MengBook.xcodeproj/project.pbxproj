@@ -1,0 +1,1011 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A608E60E1F38003D006E76EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E60D1F38003D006E76EA /* main.m */; };
+		A608E6111F38003D006E76EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6101F38003D006E76EA /* AppDelegate.m */; };
+		A608E6171F38003D006E76EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A608E6151F38003D006E76EA /* Main.storyboard */; };
+		A608E6191F38003D006E76EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A608E6181F38003D006E76EA /* Assets.xcassets */; };
+		A608E61C1F38003D006E76EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A608E61A1F38003D006E76EA /* LaunchScreen.storyboard */; };
+		A608E6271F38003D006E76EA /* MengBookTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6261F38003D006E76EA /* MengBookTests.m */; };
+		A608E6321F38003D006E76EA /* MengBookUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6311F38003D006E76EA /* MengBookUITests.m */; };
+		A608E6521F38483B006E76EA /* 个人@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A608E64C1F38483B006E76EA /* 个人@2x.png */; };
+		A608E6531F38483B006E76EA /* 个人@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A608E64D1F38483B006E76EA /* 个人@3x.png */; };
+		A608E6541F38483B006E76EA /* 目的地@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A608E64E1F38483B006E76EA /* 目的地@2x.png */; };
+		A608E6551F38483B006E76EA /* 目的地@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A608E64F1F38483B006E76EA /* 目的地@3x.png */; };
+		A608E6561F38483B006E76EA /* 游记@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A608E6501F38483B006E76EA /* 游记@2x.png */; };
+		A608E6571F38483B006E76EA /* 游记@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A608E6511F38483B006E76EA /* 游记@3x.png */; };
+		A608E65B1F384A12006E76EA /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E65A1F384A12006E76EA /* BaseViewController.m */; };
+		A608E65E1F384A24006E76EA /* HomeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E65D1F384A24006E76EA /* HomeController.m */; };
+		A608E6611F384A36006E76EA /* WhereController.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6601F384A36006E76EA /* WhereController.m */; };
+		A608E6641F384A47006E76EA /* MeController.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6631F384A47006E76EA /* MeController.m */; };
+		A608E6D81F384B8C006E76EA /* UIView+Coordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6D71F384B8C006E76EA /* UIView+Coordinate.m */; };
+		A608E6DF1F384F6A006E76EA /* XLCycleView.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6DE1F384F6A006E76EA /* XLCycleView.m */; };
+		A608E6EB1F385150006E76EA /* HomeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6E91F385150006E76EA /* HomeCell.m */; };
+		A608E6EC1F385150006E76EA /* HomeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A608E6EA1F385150006E76EA /* HomeCell.xib */; };
+		A608E6F21F418B94006E76EA /* HttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6EF1F418B94006E76EA /* HttpRequest.m */; };
+		A608E6F31F418B94006E76EA /* UploadParam.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6F11F418B94006E76EA /* UploadParam.m */; };
+		A608E6F61F418C49006E76EA /* HomeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6F51F418C49006E76EA /* HomeModel.m */; };
+		A608E6F91F418FBC006E76EA /* HomeJson.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6F81F418FBC006E76EA /* HomeJson.m */; };
+		A608E6FE1F43080F006E76EA /* TTHudHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E6FC1F43080F006E76EA /* TTHudHelper.m */; };
+		A608E7021F43D8F5006E76EA /* HBWebController.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E7011F43D8F5006E76EA /* HBWebController.m */; };
+		A608E7051F43D915006E76EA /* TTFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E7031F43D915006E76EA /* TTFileUtils.m */; };
+		A608E7081F43DE65006E76EA /* ShareItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E7071F43DE65006E76EA /* ShareItem.m */; };
+		A608E70B1F43EFD7006E76EA /* WorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E70A1F43EFD7006E76EA /* WorldViewController.m */; };
+		A608E70E1F43EFE7006E76EA /* MostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E70D1F43EFE7006E76EA /* MostViewController.m */; };
+		A608E7111F43F785006E76EA /* DCNavTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E7101F43F785006E76EA /* DCNavTabBarController.m */; };
+		A608E7141F4453FE006E76EA /* WordJson.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E7131F4453FD006E76EA /* WordJson.m */; };
+		A608E7171F44540D006E76EA /* WordModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E7161F44540D006E76EA /* WordModel.m */; };
+		A608E71E1F457781006E76EA /* WordCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E71C1F457781006E76EA /* WordCell.m */; };
+		A608E71F1F457781006E76EA /* WordCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A608E71D1F457781006E76EA /* WordCell.xib */; };
+		A608E7221F4A7FDD006E76EA /* SaveItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E7211F4A7FDC006E76EA /* SaveItem.m */; };
+		A608E7261F4AC69F006E76EA /* BookShelfCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A608E7241F4AC69F006E76EA /* BookShelfCell.m */; };
+		A608E7271F4AC69F006E76EA /* BookShelfCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = A608E7251F4AC69F006E76EA /* BookShelfCell.xib */; };
+		A659DAB21F527EA900320FF3 /* NSArray+SHYUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A659DAB11F527EA900320FF3 /* NSArray+SHYUtil.m */; };
+		C731FAD692F6191095151652 /* libPods-MengBookTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 715AB1471479064880046A27 /* libPods-MengBookTests.a */; };
+		DD6F32F827F31A811F09D0AA /* libPods-MengBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4F88C3F97DB45E7B26C559 /* libPods-MengBook.a */; };
+		DEBFA1350983322698B854BE /* libPods-MengBookUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA7C980BF3BC848EA10F31EC /* libPods-MengBookUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A608E6231F38003D006E76EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A608E6011F38003D006E76EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A608E6081F38003D006E76EA;
+			remoteInfo = MengBook;
+		};
+		A608E62E1F38003D006E76EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A608E6011F38003D006E76EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A608E6081F38003D006E76EA;
+			remoteInfo = MengBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		068DD28EEFED86E9F62F2C19 /* Pods-MengBookTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBookTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengBookTests/Pods-MengBookTests.release.xcconfig"; sourceTree = "<group>"; };
+		47376E7C14064C6AE4CA0951 /* Pods-MengBookTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBookTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengBookTests/Pods-MengBookTests.debug.xcconfig"; sourceTree = "<group>"; };
+		518CC471FD4FBF834714293A /* Pods-MengBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengBook/Pods-MengBook.release.xcconfig"; sourceTree = "<group>"; };
+		588F702F93EDC4A00F0858B6 /* Pods-MengBookUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBookUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MengBookUITests/Pods-MengBookUITests.release.xcconfig"; sourceTree = "<group>"; };
+		715AB1471479064880046A27 /* libPods-MengBookTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengBookTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AAF1F2D5DCE7D32089FD5A4 /* Pods-MengBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengBook/Pods-MengBook.debug.xcconfig"; sourceTree = "<group>"; };
+		A608E6091F38003D006E76EA /* MengBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MengBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A608E60D1F38003D006E76EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A608E60F1F38003D006E76EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A608E6101F38003D006E76EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A608E6161F38003D006E76EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A608E6181F38003D006E76EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A608E61B1F38003D006E76EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A608E61D1F38003D006E76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A608E6221F38003D006E76EA /* MengBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MengBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A608E6261F38003D006E76EA /* MengBookTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MengBookTests.m; sourceTree = "<group>"; };
+		A608E6281F38003D006E76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A608E62D1F38003D006E76EA /* MengBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MengBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A608E6311F38003D006E76EA /* MengBookUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MengBookUITests.m; sourceTree = "<group>"; };
+		A608E6331F38003D006E76EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A608E64C1F38483B006E76EA /* 个人@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人@2x.png"; sourceTree = "<group>"; };
+		A608E64D1F38483B006E76EA /* 个人@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "个人@3x.png"; sourceTree = "<group>"; };
+		A608E64E1F38483B006E76EA /* 目的地@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "目的地@2x.png"; sourceTree = "<group>"; };
+		A608E64F1F38483B006E76EA /* 目的地@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "目的地@3x.png"; sourceTree = "<group>"; };
+		A608E6501F38483B006E76EA /* 游记@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "游记@2x.png"; sourceTree = "<group>"; };
+		A608E6511F38483B006E76EA /* 游记@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "游记@3x.png"; sourceTree = "<group>"; };
+		A608E6591F384A12006E76EA /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		A608E65A1F384A12006E76EA /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		A608E65C1F384A24006E76EA /* HomeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeController.h; sourceTree = "<group>"; };
+		A608E65D1F384A24006E76EA /* HomeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeController.m; sourceTree = "<group>"; };
+		A608E65F1F384A36006E76EA /* WhereController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhereController.h; sourceTree = "<group>"; };
+		A608E6601F384A36006E76EA /* WhereController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhereController.m; sourceTree = "<group>"; };
+		A608E6621F384A47006E76EA /* MeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeController.h; sourceTree = "<group>"; };
+		A608E6631F384A47006E76EA /* MeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeController.m; sourceTree = "<group>"; };
+		A608E6681F384B64006E76EA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A608E6D61F384B8C006E76EA /* UIView+Coordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Coordinate.h"; sourceTree = "<group>"; };
+		A608E6D71F384B8C006E76EA /* UIView+Coordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Coordinate.m"; sourceTree = "<group>"; };
+		A608E6DB1F384BDF006E76EA /* MCommon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCommon.h; sourceTree = "<group>"; };
+		A608E6DD1F384F6A006E76EA /* XLCycleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XLCycleView.h; sourceTree = "<group>"; };
+		A608E6DE1F384F6A006E76EA /* XLCycleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XLCycleView.m; sourceTree = "<group>"; };
+		A608E6E81F385150006E76EA /* HomeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCell.h; sourceTree = "<group>"; };
+		A608E6E91F385150006E76EA /* HomeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCell.m; sourceTree = "<group>"; };
+		A608E6EA1F385150006E76EA /* HomeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeCell.xib; sourceTree = "<group>"; };
+		A608E6EE1F418B94006E76EA /* HttpRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HttpRequest.h; sourceTree = "<group>"; };
+		A608E6EF1F418B94006E76EA /* HttpRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HttpRequest.m; sourceTree = "<group>"; };
+		A608E6F01F418B94006E76EA /* UploadParam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadParam.h; sourceTree = "<group>"; };
+		A608E6F11F418B94006E76EA /* UploadParam.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadParam.m; sourceTree = "<group>"; };
+		A608E6F41F418C49006E76EA /* HomeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeModel.h; sourceTree = "<group>"; };
+		A608E6F51F418C49006E76EA /* HomeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeModel.m; sourceTree = "<group>"; };
+		A608E6F71F418FBC006E76EA /* HomeJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeJson.h; sourceTree = "<group>"; };
+		A608E6F81F418FBC006E76EA /* HomeJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeJson.m; sourceTree = "<group>"; };
+		A608E6FA1F42A114006E76EA /* HBUIColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HBUIColor.h; sourceTree = "<group>"; };
+		A608E6FC1F43080F006E76EA /* TTHudHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTHudHelper.m; sourceTree = "<group>"; };
+		A608E6FD1F43080F006E76EA /* TTHudHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTHudHelper.h; sourceTree = "<group>"; };
+		A608E7001F43D8F5006E76EA /* HBWebController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBWebController.h; sourceTree = "<group>"; };
+		A608E7011F43D8F5006E76EA /* HBWebController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBWebController.m; sourceTree = "<group>"; };
+		A608E7031F43D915006E76EA /* TTFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTFileUtils.m; sourceTree = "<group>"; };
+		A608E7041F43D915006E76EA /* TTFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTFileUtils.h; sourceTree = "<group>"; };
+		A608E7061F43DE65006E76EA /* ShareItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareItem.h; sourceTree = "<group>"; };
+		A608E7071F43DE65006E76EA /* ShareItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareItem.m; sourceTree = "<group>"; };
+		A608E7091F43EFD7006E76EA /* WorldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorldViewController.h; sourceTree = "<group>"; };
+		A608E70A1F43EFD7006E76EA /* WorldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorldViewController.m; sourceTree = "<group>"; };
+		A608E70C1F43EFE7006E76EA /* MostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostViewController.h; sourceTree = "<group>"; };
+		A608E70D1F43EFE7006E76EA /* MostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MostViewController.m; sourceTree = "<group>"; };
+		A608E70F1F43F785006E76EA /* DCNavTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCNavTabBarController.h; sourceTree = "<group>"; };
+		A608E7101F43F785006E76EA /* DCNavTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCNavTabBarController.m; sourceTree = "<group>"; };
+		A608E7121F4453FD006E76EA /* WordJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordJson.h; sourceTree = "<group>"; };
+		A608E7131F4453FD006E76EA /* WordJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordJson.m; sourceTree = "<group>"; };
+		A608E7151F44540D006E76EA /* WordModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordModel.h; sourceTree = "<group>"; };
+		A608E7161F44540D006E76EA /* WordModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordModel.m; sourceTree = "<group>"; };
+		A608E71B1F457781006E76EA /* WordCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordCell.h; sourceTree = "<group>"; };
+		A608E71C1F457781006E76EA /* WordCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordCell.m; sourceTree = "<group>"; };
+		A608E71D1F457781006E76EA /* WordCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WordCell.xib; sourceTree = "<group>"; };
+		A608E7201F4A7FDC006E76EA /* SaveItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SaveItem.h; sourceTree = "<group>"; };
+		A608E7211F4A7FDC006E76EA /* SaveItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SaveItem.m; sourceTree = "<group>"; };
+		A608E7231F4AC69F006E76EA /* BookShelfCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookShelfCell.h; sourceTree = "<group>"; };
+		A608E7241F4AC69F006E76EA /* BookShelfCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookShelfCell.m; sourceTree = "<group>"; };
+		A608E7251F4AC69F006E76EA /* BookShelfCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BookShelfCell.xib; sourceTree = "<group>"; };
+		A659DAB01F527EA900320FF3 /* NSArray+SHYUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+SHYUtil.h"; sourceTree = "<group>"; };
+		A659DAB11F527EA900320FF3 /* NSArray+SHYUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+SHYUtil.m"; sourceTree = "<group>"; };
+		BA4F88C3F97DB45E7B26C559 /* libPods-MengBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA7C980BF3BC848EA10F31EC /* libPods-MengBookUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MengBookUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E005B96C24742DC709C0245C /* Pods-MengBookUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MengBookUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MengBookUITests/Pods-MengBookUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A608E6061F38003D006E76EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD6F32F827F31A811F09D0AA /* libPods-MengBook.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A608E61F1F38003D006E76EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C731FAD692F6191095151652 /* libPods-MengBookTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A608E62A1F38003D006E76EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEBFA1350983322698B854BE /* libPods-MengBookUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7BB530E4DC043B7C2EC54251 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BA4F88C3F97DB45E7B26C559 /* libPods-MengBook.a */,
+				715AB1471479064880046A27 /* libPods-MengBookTests.a */,
+				CA7C980BF3BC848EA10F31EC /* libPods-MengBookUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A608E6001F38003D006E76EA = {
+			isa = PBXGroup;
+			children = (
+				A608E6681F384B64006E76EA /* PrefixHeader.pch */,
+				A608E63F1F3845C6006E76EA /* resource */,
+				A608E60B1F38003D006E76EA /* MengBook */,
+				A608E6251F38003D006E76EA /* MengBookTests */,
+				A608E6301F38003D006E76EA /* MengBookUITests */,
+				A608E60A1F38003D006E76EA /* Products */,
+				C44845A6E4E56A0831A8AC0C /* Pods */,
+				7BB530E4DC043B7C2EC54251 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A608E60A1F38003D006E76EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6091F38003D006E76EA /* MengBook.app */,
+				A608E6221F38003D006E76EA /* MengBookTests.xctest */,
+				A608E62D1F38003D006E76EA /* MengBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A608E60B1F38003D006E76EA /* MengBook */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6FB1F430805006E76EA /* Util */,
+				A608E6ED1F418B80006E76EA /* Net */,
+				A608E6DC1F384F5C006E76EA /* CommonView */,
+				A608E6DA1F384BBB006E76EA /* projectFile */,
+				A608E6D91F384B91006E76EA /* Category */,
+				A608E6581F3849E6006E76EA /* Mainfile */,
+				A608E60F1F38003D006E76EA /* AppDelegate.h */,
+				A608E6101F38003D006E76EA /* AppDelegate.m */,
+				A608E6151F38003D006E76EA /* Main.storyboard */,
+				A608E6181F38003D006E76EA /* Assets.xcassets */,
+				A608E61A1F38003D006E76EA /* LaunchScreen.storyboard */,
+				A608E61D1F38003D006E76EA /* Info.plist */,
+				A608E60C1F38003D006E76EA /* Supporting Files */,
+			);
+			path = MengBook;
+			sourceTree = "<group>";
+		};
+		A608E60C1F38003D006E76EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A608E60D1F38003D006E76EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A608E6251F38003D006E76EA /* MengBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6261F38003D006E76EA /* MengBookTests.m */,
+				A608E6281F38003D006E76EA /* Info.plist */,
+			);
+			path = MengBookTests;
+			sourceTree = "<group>";
+		};
+		A608E6301F38003D006E76EA /* MengBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6311F38003D006E76EA /* MengBookUITests.m */,
+				A608E6331F38003D006E76EA /* Info.plist */,
+			);
+			path = MengBookUITests;
+			sourceTree = "<group>";
+		};
+		A608E63F1F3845C6006E76EA /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				A608E64C1F38483B006E76EA /* 个人@2x.png */,
+				A608E64D1F38483B006E76EA /* 个人@3x.png */,
+				A608E64E1F38483B006E76EA /* 目的地@2x.png */,
+				A608E64F1F38483B006E76EA /* 目的地@3x.png */,
+				A608E6501F38483B006E76EA /* 游记@2x.png */,
+				A608E6511F38483B006E76EA /* 游记@3x.png */,
+			);
+			name = resource;
+			sourceTree = "<group>";
+		};
+		A608E6581F3849E6006E76EA /* Mainfile */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6FF1F43D8EF006E76EA /* web */,
+				A608E6671F384A62006E76EA /* Me */,
+				A608E6661F384A55006E76EA /* Where */,
+				A608E6651F384A4C006E76EA /* Home */,
+				A608E6591F384A12006E76EA /* BaseViewController.h */,
+				A608E65A1F384A12006E76EA /* BaseViewController.m */,
+			);
+			name = Mainfile;
+			sourceTree = "<group>";
+		};
+		A608E6651F384A4C006E76EA /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6E81F385150006E76EA /* HomeCell.h */,
+				A608E6E91F385150006E76EA /* HomeCell.m */,
+				A608E6EA1F385150006E76EA /* HomeCell.xib */,
+				A608E65C1F384A24006E76EA /* HomeController.h */,
+				A608E65D1F384A24006E76EA /* HomeController.m */,
+				A608E6F41F418C49006E76EA /* HomeModel.h */,
+				A608E6F51F418C49006E76EA /* HomeModel.m */,
+				A608E6F71F418FBC006E76EA /* HomeJson.h */,
+				A608E6F81F418FBC006E76EA /* HomeJson.m */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		A608E6661F384A55006E76EA /* Where */ = {
+			isa = PBXGroup;
+			children = (
+				A608E65F1F384A36006E76EA /* WhereController.h */,
+				A608E6601F384A36006E76EA /* WhereController.m */,
+				A608E7091F43EFD7006E76EA /* WorldViewController.h */,
+				A608E70A1F43EFD7006E76EA /* WorldViewController.m */,
+				A608E70C1F43EFE7006E76EA /* MostViewController.h */,
+				A608E70D1F43EFE7006E76EA /* MostViewController.m */,
+				A608E7121F4453FD006E76EA /* WordJson.h */,
+				A608E7131F4453FD006E76EA /* WordJson.m */,
+				A608E7151F44540D006E76EA /* WordModel.h */,
+				A608E7161F44540D006E76EA /* WordModel.m */,
+				A608E71B1F457781006E76EA /* WordCell.h */,
+				A608E71C1F457781006E76EA /* WordCell.m */,
+				A608E71D1F457781006E76EA /* WordCell.xib */,
+			);
+			name = Where;
+			sourceTree = "<group>";
+		};
+		A608E6671F384A62006E76EA /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6621F384A47006E76EA /* MeController.h */,
+				A608E6631F384A47006E76EA /* MeController.m */,
+				A608E7201F4A7FDC006E76EA /* SaveItem.h */,
+				A608E7211F4A7FDC006E76EA /* SaveItem.m */,
+				A608E7231F4AC69F006E76EA /* BookShelfCell.h */,
+				A608E7241F4AC69F006E76EA /* BookShelfCell.m */,
+				A608E7251F4AC69F006E76EA /* BookShelfCell.xib */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		A608E6D91F384B91006E76EA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6D61F384B8C006E76EA /* UIView+Coordinate.h */,
+				A608E6D71F384B8C006E76EA /* UIView+Coordinate.m */,
+				A659DAB01F527EA900320FF3 /* NSArray+SHYUtil.h */,
+				A659DAB11F527EA900320FF3 /* NSArray+SHYUtil.m */,
+			);
+			name = Category;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		A608E6DA1F384BBB006E76EA /* projectFile */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6DB1F384BDF006E76EA /* MCommon.h */,
+				A608E6FA1F42A114006E76EA /* HBUIColor.h */,
+			);
+			name = projectFile;
+			sourceTree = "<group>";
+		};
+		A608E6DC1F384F5C006E76EA /* CommonView */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6DD1F384F6A006E76EA /* XLCycleView.h */,
+				A608E6DE1F384F6A006E76EA /* XLCycleView.m */,
+			);
+			name = CommonView;
+			sourceTree = "<group>";
+		};
+		A608E6ED1F418B80006E76EA /* Net */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6EE1F418B94006E76EA /* HttpRequest.h */,
+				A608E6EF1F418B94006E76EA /* HttpRequest.m */,
+				A608E6F01F418B94006E76EA /* UploadParam.h */,
+				A608E6F11F418B94006E76EA /* UploadParam.m */,
+			);
+			name = Net;
+			sourceTree = "<group>";
+		};
+		A608E6FB1F430805006E76EA /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				A608E6FC1F43080F006E76EA /* TTHudHelper.m */,
+				A608E6FD1F43080F006E76EA /* TTHudHelper.h */,
+				A608E7031F43D915006E76EA /* TTFileUtils.m */,
+				A608E7041F43D915006E76EA /* TTFileUtils.h */,
+				A608E7061F43DE65006E76EA /* ShareItem.h */,
+				A608E7071F43DE65006E76EA /* ShareItem.m */,
+				A608E70F1F43F785006E76EA /* DCNavTabBarController.h */,
+				A608E7101F43F785006E76EA /* DCNavTabBarController.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		A608E6FF1F43D8EF006E76EA /* web */ = {
+			isa = PBXGroup;
+			children = (
+				A608E7001F43D8F5006E76EA /* HBWebController.h */,
+				A608E7011F43D8F5006E76EA /* HBWebController.m */,
+			);
+			name = web;
+			sourceTree = "<group>";
+		};
+		C44845A6E4E56A0831A8AC0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AAF1F2D5DCE7D32089FD5A4 /* Pods-MengBook.debug.xcconfig */,
+				518CC471FD4FBF834714293A /* Pods-MengBook.release.xcconfig */,
+				47376E7C14064C6AE4CA0951 /* Pods-MengBookTests.debug.xcconfig */,
+				068DD28EEFED86E9F62F2C19 /* Pods-MengBookTests.release.xcconfig */,
+				E005B96C24742DC709C0245C /* Pods-MengBookUITests.debug.xcconfig */,
+				588F702F93EDC4A00F0858B6 /* Pods-MengBookUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A608E6081F38003D006E76EA /* MengBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A608E6361F38003D006E76EA /* Build configuration list for PBXNativeTarget "MengBook" */;
+			buildPhases = (
+				FB7D0772E854DA35F19799EA /* [CP] Check Pods Manifest.lock */,
+				A608E6051F38003D006E76EA /* Sources */,
+				A608E6061F38003D006E76EA /* Frameworks */,
+				A608E6071F38003D006E76EA /* Resources */,
+				22F58D4E6EBE3CDC9E04CBCC /* [CP] Embed Pods Frameworks */,
+				CD828C72F4E3046067500001 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MengBook;
+			productName = MengBook;
+			productReference = A608E6091F38003D006E76EA /* MengBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A608E6211F38003D006E76EA /* MengBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A608E6391F38003D006E76EA /* Build configuration list for PBXNativeTarget "MengBookTests" */;
+			buildPhases = (
+				623A74C16F981BDA3D23AADB /* [CP] Check Pods Manifest.lock */,
+				A608E61E1F38003D006E76EA /* Sources */,
+				A608E61F1F38003D006E76EA /* Frameworks */,
+				A608E6201F38003D006E76EA /* Resources */,
+				F3CE3C7D92762F6E0A54B3DD /* [CP] Embed Pods Frameworks */,
+				E92124CDDF9F1CA7813FC457 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A608E6241F38003D006E76EA /* PBXTargetDependency */,
+			);
+			name = MengBookTests;
+			productName = MengBookTests;
+			productReference = A608E6221F38003D006E76EA /* MengBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A608E62C1F38003D006E76EA /* MengBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A608E63C1F38003D006E76EA /* Build configuration list for PBXNativeTarget "MengBookUITests" */;
+			buildPhases = (
+				310F5533B2D54601DBC8668F /* [CP] Check Pods Manifest.lock */,
+				A608E6291F38003D006E76EA /* Sources */,
+				A608E62A1F38003D006E76EA /* Frameworks */,
+				A608E62B1F38003D006E76EA /* Resources */,
+				129A44106EBA3542B36627C7 /* [CP] Embed Pods Frameworks */,
+				0D1DBD22504C0BC2D51F3101 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A608E62F1F38003D006E76EA /* PBXTargetDependency */,
+			);
+			name = MengBookUITests;
+			productName = MengBookUITests;
+			productReference = A608E62D1F38003D006E76EA /* MengBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A608E6011F38003D006E76EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TongBin;
+				TargetAttributes = {
+					A608E6081F38003D006E76EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					A608E6211F38003D006E76EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YX5MTH3352;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A608E6081F38003D006E76EA;
+					};
+					A608E62C1F38003D006E76EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = YX5MTH3352;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A608E6081F38003D006E76EA;
+					};
+				};
+			};
+			buildConfigurationList = A608E6041F38003D006E76EA /* Build configuration list for PBXProject "MengBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = A608E6001F38003D006E76EA;
+			productRefGroup = A608E60A1F38003D006E76EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A608E6081F38003D006E76EA /* MengBook */,
+				A608E6211F38003D006E76EA /* MengBookTests */,
+				A608E62C1F38003D006E76EA /* MengBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A608E6071F38003D006E76EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A608E6EC1F385150006E76EA /* HomeCell.xib in Resources */,
+				A608E61C1F38003D006E76EA /* LaunchScreen.storyboard in Resources */,
+				A608E6191F38003D006E76EA /* Assets.xcassets in Resources */,
+				A608E71F1F457781006E76EA /* WordCell.xib in Resources */,
+				A608E6551F38483B006E76EA /* 目的地@3x.png in Resources */,
+				A608E6521F38483B006E76EA /* 个人@2x.png in Resources */,
+				A608E6541F38483B006E76EA /* 目的地@2x.png in Resources */,
+				A608E6571F38483B006E76EA /* 游记@3x.png in Resources */,
+				A608E6171F38003D006E76EA /* Main.storyboard in Resources */,
+				A608E6561F38483B006E76EA /* 游记@2x.png in Resources */,
+				A608E6531F38483B006E76EA /* 个人@3x.png in Resources */,
+				A608E7271F4AC69F006E76EA /* BookShelfCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A608E6201F38003D006E76EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A608E62B1F38003D006E76EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D1DBD22504C0BC2D51F3101 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengBookUITests/Pods-MengBookUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		129A44106EBA3542B36627C7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengBookUITests/Pods-MengBookUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22F58D4E6EBE3CDC9E04CBCC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengBook/Pods-MengBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		310F5533B2D54601DBC8668F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		623A74C16F981BDA3D23AADB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD828C72F4E3046067500001 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengBook/Pods-MengBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E92124CDDF9F1CA7813FC457 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengBookTests/Pods-MengBookTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3CE3C7D92762F6E0A54B3DD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MengBookTests/Pods-MengBookTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB7D0772E854DA35F19799EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A608E6051F38003D006E76EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A608E6D81F384B8C006E76EA /* UIView+Coordinate.m in Sources */,
+				A608E7141F4453FE006E76EA /* WordJson.m in Sources */,
+				A608E7051F43D915006E76EA /* TTFileUtils.m in Sources */,
+				A608E7221F4A7FDD006E76EA /* SaveItem.m in Sources */,
+				A608E65B1F384A12006E76EA /* BaseViewController.m in Sources */,
+				A608E7261F4AC69F006E76EA /* BookShelfCell.m in Sources */,
+				A608E71E1F457781006E76EA /* WordCell.m in Sources */,
+				A659DAB21F527EA900320FF3 /* NSArray+SHYUtil.m in Sources */,
+				A608E6111F38003D006E76EA /* AppDelegate.m in Sources */,
+				A608E6F21F418B94006E76EA /* HttpRequest.m in Sources */,
+				A608E70B1F43EFD7006E76EA /* WorldViewController.m in Sources */,
+				A608E6F91F418FBC006E76EA /* HomeJson.m in Sources */,
+				A608E70E1F43EFE7006E76EA /* MostViewController.m in Sources */,
+				A608E7081F43DE65006E76EA /* ShareItem.m in Sources */,
+				A608E6EB1F385150006E76EA /* HomeCell.m in Sources */,
+				A608E7171F44540D006E76EA /* WordModel.m in Sources */,
+				A608E7111F43F785006E76EA /* DCNavTabBarController.m in Sources */,
+				A608E6641F384A47006E76EA /* MeController.m in Sources */,
+				A608E65E1F384A24006E76EA /* HomeController.m in Sources */,
+				A608E60E1F38003D006E76EA /* main.m in Sources */,
+				A608E6FE1F43080F006E76EA /* TTHudHelper.m in Sources */,
+				A608E6F61F418C49006E76EA /* HomeModel.m in Sources */,
+				A608E7021F43D8F5006E76EA /* HBWebController.m in Sources */,
+				A608E6611F384A36006E76EA /* WhereController.m in Sources */,
+				A608E6F31F418B94006E76EA /* UploadParam.m in Sources */,
+				A608E6DF1F384F6A006E76EA /* XLCycleView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A608E61E1F38003D006E76EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A608E6271F38003D006E76EA /* MengBookTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A608E6291F38003D006E76EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A608E6321F38003D006E76EA /* MengBookUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A608E6241F38003D006E76EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A608E6081F38003D006E76EA /* MengBook */;
+			targetProxy = A608E6231F38003D006E76EA /* PBXContainerItemProxy */;
+		};
+		A608E62F1F38003D006E76EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A608E6081F38003D006E76EA /* MengBook */;
+			targetProxy = A608E62E1F38003D006E76EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A608E6151F38003D006E76EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A608E6161F38003D006E76EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A608E61A1F38003D006E76EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A608E61B1F38003D006E76EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A608E6341F38003D006E76EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = YX5MTH3352;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A608E6351F38003D006E76EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = YX5MTH3352;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A608E6371F38003D006E76EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AAF1F2D5DCE7D32089FD5A4 /* Pods-MengBook.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/PrefixHeader.pch";
+				INFOPLIST_FILE = MengBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foryou.111;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "74547e24-41bc-414e-8d15-f25d84199a6c";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Debug;
+		};
+		A608E6381F38003D006E76EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518CC471FD4FBF834714293A /* Pods-MengBook.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(PROJECT_DIR)/PrefixHeader.pch";
+				INFOPLIST_FILE = MengBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.foryou.111;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+			};
+			name = Release;
+		};
+		A608E63A1F38003D006E76EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47376E7C14064C6AE4CA0951 /* Pods-MengBookTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MengBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MengBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MengBook.app/MengBook";
+			};
+			name = Debug;
+		};
+		A608E63B1F38003D006E76EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 068DD28EEFED86E9F62F2C19 /* Pods-MengBookTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MengBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MengBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MengBook.app/MengBook";
+			};
+			name = Release;
+		};
+		A608E63D1F38003D006E76EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E005B96C24742DC709C0245C /* Pods-MengBookUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MengBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MengBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MengBook;
+			};
+			name = Debug;
+		};
+		A608E63E1F38003D006E76EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588F702F93EDC4A00F0858B6 /* Pods-MengBookUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = MengBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.MengBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MengBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A608E6041F38003D006E76EA /* Build configuration list for PBXProject "MengBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A608E6341F38003D006E76EA /* Debug */,
+				A608E6351F38003D006E76EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A608E6361F38003D006E76EA /* Build configuration list for PBXNativeTarget "MengBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A608E6371F38003D006E76EA /* Debug */,
+				A608E6381F38003D006E76EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A608E6391F38003D006E76EA /* Build configuration list for PBXNativeTarget "MengBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A608E63A1F38003D006E76EA /* Debug */,
+				A608E63B1F38003D006E76EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A608E63C1F38003D006E76EA /* Build configuration list for PBXNativeTarget "MengBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A608E63D1F38003D006E76EA /* Debug */,
+				A608E63E1F38003D006E76EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A608E6011F38003D006E76EA /* Project object */;
+}

@@ -1,0 +1,30 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MengBook' do
+    pod "AFNetworking"
+    pod "FMDB"
+    pod "SDWebImage"
+    pod "MBProgressHUD"
+    pod 'JSONModel'
+    pod 'Masonry'
+    pod 'MMDrawerController'
+    pod 'DZNSegmentedControl'
+    pod 'MJRefresh'  
+    pod 'YYModel'
+# Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for MengBook
+
+  target 'MengBookTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MengBookUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end

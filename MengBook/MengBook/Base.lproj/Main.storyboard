@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="p85-mf-ecB">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="JZd-Co-nmR">
+            <objects>
+                <tabBarController id="p85-mf-ecB" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="1JM-ez-tSZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="oJR-V3-Okd" kind="relationship" relationship="viewControllers" id="jhj-eh-O53"/>
+                        <segue destination="W1C-3K-Rtv" kind="relationship" relationship="viewControllers" id="R5S-2X-gUa"/>
+                        <segue destination="vjY-X7-AIK" kind="relationship" relationship="viewControllers" id="y5I-BH-2p5"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DoP-R5-1qa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3079" y="-352"/>
+        </scene>
+        <!--首页-->
+        <scene sceneID="l32-4T-RlP">
+            <objects>
+                <navigationController id="oJR-V3-Okd" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="首页" image="目的地.png" id="6yw-kQ-IzE"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="iva-Vf-70X">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="tgv-s2-P7v" kind="relationship" relationship="rootViewController" id="tVX-wQ-bjC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Iiw-Ar-aNP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2022" y="-1340"/>
+        </scene>
+        <!--XiaoXiongBook-->
+        <scene sceneID="WQy-qk-ZXM">
+            <objects>
+                <viewController id="tgv-s2-P7v" customClass="HomeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="XTE-KW-eXM"/>
+                        <viewControllerLayoutGuide type="bottom" id="rCa-wK-mqk"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SKu-R6-RzC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bXo-70-4kh">
+                                <rect key="frame" x="0.0" y="153" width="375" height="20"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="热门图书" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrC-OH-J3Y">
+                                        <rect key="frame" x="15" y="-1" width="256" height="21"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="XiaoXiongBook" id="ehX-Gf-GHf"/>
+                    <connections>
+                        <outlet property="remenView" destination="bXo-70-4kh" id="Epi-he-xi7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mps-rj-QCH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1247.2" y="-1341.6791604197902"/>
+        </scene>
+        <!--探索-->
+        <scene sceneID="zIz-Lc-DXY">
+            <objects>
+                <navigationController id="W1C-3K-Rtv" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="探索" image="游记.png" id="Jyk-gH-lOB"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="Wa9-Sw-EAi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.73725490199999999" blue="0.83137254900000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="k6c-Cy-IYE" kind="relationship" relationship="rootViewController" id="us2-27-3sE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dnx-D1-l9H" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2022" y="-628"/>
+        </scene>
+        <!--Discover-->
+        <scene sceneID="d9Z-8V-XYK">
+            <objects>
+                <viewController id="k6c-Cy-IYE" customClass="WhereController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="rYA-0O-upz"/>
+                        <viewControllerLayoutGuide type="bottom" id="dcq-EW-2LL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7PP-8d-rgr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Discover" id="ZqU-dz-HTv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="84s-rg-8Zu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1247" y="-628"/>
+        </scene>
+        <!--我的-->
+        <scene sceneID="lwd-C8-bfS">
+            <objects>
+                <navigationController id="vjY-X7-AIK" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="我的" image="个人.png" id="gWS-eZ-N3y"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" misplaced="YES" id="hVa-q2-xP6">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="barTintColor" red="0.0" green="0.73725490196078436" blue="0.83137254901960778" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="oZW-d9-M2e" kind="relationship" relationship="rootViewController" id="b8p-lN-gTi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Pzl-85-1px" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2023" y="187"/>
+        </scene>
+        <!--Pocket-->
+        <scene sceneID="OdP-i0-QXD">
+            <objects>
+                <viewController id="oZW-d9-M2e" customClass="MeController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="dqv-b6-u6J"/>
+                        <viewControllerLayoutGuide type="bottom" id="Aij-QS-qcU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="a4K-a3-nAA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Pocket" id="Ugd-SR-Oez"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Gtg-Hn-ECE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1327" y="187"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="个人.png" width="16" height="16"/>
+        <image name="游记.png" width="16" height="16"/>
+        <image name="目的地.png" width="16" height="16"/>
+    </resources>
+    <color key="tintColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="calibratedRGB"/>
+</document>
