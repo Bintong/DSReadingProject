@@ -42,12 +42,15 @@ Web 服务一直是客户端开发的瓶颈和开发中总要的组成部分，�
 
    
 
-#### WEB  
+#### WEB 
 
-| 语言   |     Python     |
-| ----- | ------------- |
-| 工具包 				| 				`Beautiful` Soup				 |
-|        |     FLask      |
+ 
+
+
+| **语言**  | **Python**|
+| ----- | -------------------------|
+| 工具包 | Beautiful Soup &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;    |
+|        |     FLask   |
 |        |    MongoDB     |
 | | RestFul API |
 | 工具   |    PyCharm     |
@@ -57,9 +60,9 @@ Web 服务一直是客户端开发的瓶颈和开发中总要的组成部分，�
 
 #### APP
 
-| 语言  | OBJC   |
+| 语言   | OBJC   |
 | :----- | ---------- |
-| 工具   | Xcode      |
+| 工具  |  Xcode   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;   |
 | 工具包				 | 							AFN  				      |
 |        | SDWebImage |
 
