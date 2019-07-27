@@ -20,30 +20,37 @@ Web 服务一直是客户端开发的瓶颈和开发中总要的组成部分，�
 
 #### WEB  
 
-| 语言   |     Python     |  |  |  |  |
-| :-----: | :------------- | ------- | ------- | ------- | ------- |
-| 工具包 				| 				`Beautiful` Soup				 |  |  |  |  |
-|        |     FLask      |  |  |  |  |
-|        |    MongoDB     |  |  |  |  |
-| | RestFul API |  |  |  |  |
-| 工具   |    PyCharm     |  |  |  |  |
-|        | PostMan |  |  |  |  |
+| 语言   |     Python     |
+| :-----: | :------------- |
+| 工具包 				| 				`Beautiful` Soup				 |
+|        |     FLask      |
+|        |    MongoDB     |
+| | RestFul API |
+| 工具   |    PyCharm     |
+|        | PostMan |
 
 
 
 #### APP
 
-| 语言  | OBJC   |  |  |  |  |
-| :----- | ---------- | ------ | ------ | ------ | ------ |
-| 工具   | Xcode      |  |  |  |  |
-| 工具包				 | 							AFN  				      |  |  |  |  |
-|        | SDWebImage |  |  |  |  |
+| 语言  | OBJC   |
+| :----- | ---------- |
+| 工具   | Xcode      |
+| 工具包				 | 							AFN  				      |
+|        | SDWebImage |
 
 
 
 ### 效果
 
+![](https://github.com/Bintong/DSReadingProject/blob/master/gif2.gif)
+
 #### 爬虫数据
+
+![](https://github.com/Bintong/DSReadingProject/blob/master/gif1.gif)
 
 #### 客户端访问
 
+![](https://github.com/Bintong/DSReadingProject/blob/master/gif3.gif)
+
+![](https://github.com/Bintong/DSReadingProject/blob/master/gif4.gif)
