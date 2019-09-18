@@ -12,12 +12,12 @@
 #define DCScreenH    [UIScreen mainScreen].bounds.size.height
 
 @interface DCNavTabBarController ()<UIScrollViewDelegate>
+
 @property (nonatomic, weak) UIButton *oldBtn;
 @property(nonatomic,strong)NSArray *VCArr;
 @property (nonatomic, weak) UIScrollView *contentView;
 @property (nonatomic, weak) UIScrollView *topBar;
 @property(nonatomic,assign) CGFloat btnW ;
-
 @property (nonatomic, weak) UIView *slider;
 
 @end

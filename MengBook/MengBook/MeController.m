@@ -25,10 +25,7 @@
     self.listDatas = [NSMutableArray array];
     self.splitDatas = [NSMutableArray array];
     self.webviewctr = [[HBWebController alloc] init];
-    [self createListView];
-    
-    
-    // Do any additional setup after loading the view.
+    [self createListView]; 
 }
 
 - (void)createListView {
